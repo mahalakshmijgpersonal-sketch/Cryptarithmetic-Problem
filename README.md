@@ -14,7 +14,7 @@ This algorithm will take three words.
            ----------<br>
            G A M E S<br>
 
-Output:
+### OUTPUT
 It will show which letter holds which number from 0 – 9.
 For this case it is like this.
 
@@ -22,7 +22,7 @@ For this case it is like this.
               B A L L                         2 4 5 5
              ---------                       ---------
             G A M E S                       0 4 9 1 6
-Algorithm
+### ALGORITHM
 For this problem, we will define a node, which contains a letter and its corresponding values.<br>
 
 isValid(nodeList, count, word1, word2, word3)<br>
@@ -79,7 +79,7 @@ MORE = 1085<br>
 MONEY = 10652<br>
 <hr>
 
-### Program
+### PROGRAM
 ```
 # -*- coding: utf-8 -*-
 """CSP.ipynb
@@ -122,8 +122,8 @@ else:
     print("No solution found.")
 ```
 
-<h2<Output<h2>
+### OUTPUT
 <img width="443" height="202" alt="image" src="https://github.com/user-attachments/assets/2a40aba2-eac3-483f-9b10-b5b04c28361e" />
 
-<h2>Result:</h2>
+### RESULT
 <p> Thus a Cryptarithmetic Problem was solved using Python successfully</p>
