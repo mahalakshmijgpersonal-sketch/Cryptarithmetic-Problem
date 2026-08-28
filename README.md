@@ -32,6 +32,7 @@ Input − A list of nodes, the number of elements in the node list and three wor
 Output − True if the sum of the value for word1 and word2 is same as word3 value.<br>
 
 Begin<br>
+```
    m := 1<br>
    for each letter i from right to left of word1, do<br>
       ch := word1[i]<br>
@@ -71,6 +72,7 @@ Begin<br>
       return true<br>
    return false<br>
 End<br>
+```
 <hr>
 <h2>Sample Input and Output:</h2>
 SEND = 9567<br>
