@@ -5,7 +5,7 @@
 <p>
     To solve Cryptarithmetic Problem,a CSP(Constraint Satisfaction Problem) using Python
 </p>
-<h3>Procedure:</h3>
+### Procedure:
 Input and Output
 <br>Input:
 This algorithm will take three words.
@@ -79,7 +79,7 @@ MORE = 1085<br>
 MONEY = 10652<br>
 <hr>
 
-<h2>Program<h2>
+### Program
 ```
 # -*- coding: utf-8 -*-
 """CSP.ipynb
@@ -110,7 +110,7 @@ def solve_cryptarithmetic():
 
     return None
 
-# Call the function
+
 solution = solve_cryptarithmetic()
 
 if solution:
